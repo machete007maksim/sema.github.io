@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************
+******************HEADER******************
+*****************************************/
+html,body,header, #intro{
+  height: 100%;
+  font-family: 'Asap', sans-serif;
+  font-weight: 600;
+}
+header{
+  height: 750px !important;
+}
+#intro{
+background-color: lightgray;
+color: #4d4d4d;
+background-size: cover;
+}
+p.semen{
+  opacity: 0.4;
+}
+.navbar{
+  box-shadow: none !important;
+  background-color: transparent !important;
+  font-family: 'Asap', sans-serif;
+  color: #4d4d4d !important;
+}
+div.col-1.col-md-5{
+  padding-left: 0px!important;
+}
+/*****************************************
+*****************Section2*****************
+*****************************************/
+section#KnowMore {
+  height: 675px;
+}
+.bolddd{
+  font-size: 46px;
+  color: #4d4d4d;
+  opacity: 0.5;
+}
+/*******************************************
+******************SECTION3******************
+*******************************************/
+section#services{
+  height: 692px;
+  background-color: lightgray;
+  background-size: cover;
+}
+#services div.container div.text-center h2{
+  opacity: 0.5;
+}
+section#skills{
+  height: 766px;
+  background-color: #e2e2e2;
+}
+#skills div.container div.text-center h2{
+  opacity: 0.5;
+}
+Section#portfolio{
+  height: 1090PX;
+  background-color: #dbeae8;
+}
+section#testimonials div.row{
+border: 1px solid gray;
+border-bottom: 0px;
+}
+section#testimonials div.row p.my-1{
+  font-size: 10px !important;
+}
+section#testimonials div.row p.anuta{
+  opacity: 0.5;
+}
+section#testimonials{
+  height: 509px;
+}
+#testimonials div.container div.text-center h2{
+  opacity: 0.5;
+}
+#portfolio div.container div.text-center h2{
+  opacity: 0.5;
+}
+#happy{
+  background-color: #d6d9d0;
+  height: 307px;
+}
+#clear{
+  height: 154px;
+}
+#say{
+  background: url(../img/PNGICON/abcc.jpeg);
+  height: 784px;
+}
+#say h2{
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+#happy img:hover{
+  animation-name:sizee;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+h2.pt-5:hover{
+  animation-name:sizee;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+i.fab:hover{
+  animation-name:fabb;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+.semaazazov:hover{
+  animation-name:opac;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+nav li a:hover{
+  text-decoration: underline !important;
+  text-decoration-color: white !important;
+}
+#portfolio img{
+  box-shadow: -8px 5px 24px 1px rgba(0,0,0,0.46);
+}
+
+@keyframes fabb {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(45deg);
+  }
+  100%{
+    transform: rotate(-45deg);
+  }
+}
+@keyframes opac {
+  0%{
+  }
+  25%{
+    opacity: 0.7;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 0.3;
+  }
+}
+@keyframes sizee {
+  0%{
+
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
